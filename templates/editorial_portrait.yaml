@@ -1,0 +1,22 @@
+name: editorial_portrait
+prompt: >-
+  editorial fashion portrait of a fictional adult model, {outfit},
+  {setting}, {lighting}, 85mm lens, shallow depth of field,
+  natural skin texture, magazine cover quality
+negative: low quality, blurry, deformed hands, extra fingers, watermark, text
+variables:
+  outfit:
+    - tailored camel wool coat over a cream knit sweater
+    - oversized linen shirt and wide-leg trousers
+    - long-sleeve satin midi dress
+  setting:
+    - wood-panelled hotel lounge with a leather armchair
+    - sunlit cafe window seat
+  lighting:
+    - warm tungsten practical lights, cinematic
+    - soft window light, golden hour
+seeds: [1, 2]
+width: 832
+height: 1216
+steps: 30
+guidance: 6.0
