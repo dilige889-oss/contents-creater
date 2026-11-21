@@ -1,0 +1,7 @@
+Pillow>=10.0
+PyYAML>=6.0
+# Optional: local generation with Stable Diffusion XL (needs a GPU)
+# torch>=2.2
+# diffusers>=0.27
+# transformers
+# accelerate

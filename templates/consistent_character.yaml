@@ -1,0 +1,18 @@
+# Same character description + fixed seeds keeps the look consistent.
+# For stronger consistency, train a LoRA on your own fictional character renders.
+name: character_mina
+prompt: >-
+  photo of Mina, a fictional adult woman with shoulder-length dark brown hair,
+  small pearl earrings, {outfit}, {scene}, soft natural light, 50mm lens
+negative: low quality, blurry, deformed, watermark
+variables:
+  outfit:
+    - beige trench coat
+    - navy cardigan and white t-shirt
+  scene:
+    - reading a book in a library
+    - walking down a city street in autumn
+    - drinking coffee at a kitchen table
+seeds: [42]
+width: 896
+height: 1152
